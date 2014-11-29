@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Using the command line, I was able to see the lines with issues and fairly easily find the errors.
+    Using Git Bash, it was almost the same.  Personally I like the +/- nomanclature.  Focus was quick.
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+    Being able to find errors caused by changes will quicken the overall design process.
+    Correcting errors is much easier now.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+    Pro - the appropriate level of commits are made usually coinciding with a feature change or error correction.
+    Pro - Automatic commits may not be at logical timing.
+    Con - you may forgot to save or make your commits too large.
+    Con - Well automatick commits ensures that commit are being made.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Since the HTML, CSS, and JS files are linked and a change in coding in one file will
+    afftect coding in other files; it makes sense to save changes in all files as one commit.
+    The link between files makes it easier to see the overall changes in the project.
+
+How can you use the commands git log and git diff to view the history of files?
+    
+    With git log I can see all the commits and some information about the commits.
+    With git log --stat I can see the lines added deleted.
+    With git diff I can see what lines were added or deleted.
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+    If I know I can get back to a great starting point, where I left off, prior to makeing changes
+    then I would be more confident making changes and trying new things.  A stake in the ground is
+    a good thing to have.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to use Git for all of my Nano degree work.  Personally, I help out with a website
+    for a community theater.  I would love for the 2 of us doing the HTML CSS coding to use Git so we
+    can control the changes more efficiently.
